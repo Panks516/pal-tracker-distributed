@@ -4,7 +4,7 @@ applications:
   host: registration-pal-pk
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-pk.apps.longs.pal.pivotal.io
+ # env:
+  #  REGISTRATION_SERVER_ENDPOINT: http://registration-pal-pk.apps.longs.pal.pivotal.io
   services:
   - tracker-registration-database
